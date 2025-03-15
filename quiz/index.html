@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hungarian Vocab Quiz</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="quiz-container">
+            <h1>Hungarian Vocab Quiz</h1>
+            <p id="quiz-info">Here you will find 15 Hungarian words, can you guess their English meanings?</p>
+            <p id="question">Loading question...</p>
+            <div id="options"></div>
+            <p id="score">Score: 0</p>
+        </div>
+
+        <div id="wellDoneModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Well Done!</p>
+                <p id="finalScoreDisplay"></p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
